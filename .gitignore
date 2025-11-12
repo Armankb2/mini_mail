@@ -1,4 +1,17 @@
+# macOS junk
+.DS_Store
+uploads/.DS_Store
+
+# Python virtual environment
 venv/
+
+# Logs and temporary files
+__pycache__/
+logs/
+mini_mail/
+
+# Ignore accidental nested project folders
+/mini_mail/venv/
 __pycache__/
 *.pyc
 *.db
